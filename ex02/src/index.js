@@ -30,7 +30,7 @@ for (let i = 0; i < 16; i++) {
     if (i == 15) {
         fifteenArray[i] = iterator.next().value + "!";
     } else {
-        fifteenArray[i] = iterator.next().value + "#, ";
+        fifteenArray[i] = iterator.next().value + "#,";
     }
 }
 console.log(...fifteenArray);
